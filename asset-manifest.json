@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Multhi-Theme-Calculator/static/css/main.6b457b02.css",
+    "main.js": "/Multhi-Theme-Calculator/static/js/main.49b8585b.js",
+    "index.html": "/Multhi-Theme-Calculator/index.html",
+    "main.6b457b02.css.map": "/Multhi-Theme-Calculator/static/css/main.6b457b02.css.map",
+    "main.49b8585b.js.map": "/Multhi-Theme-Calculator/static/js/main.49b8585b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b457b02.css",
+    "static/js/main.49b8585b.js"
+  ]
+}
