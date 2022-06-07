@@ -1,12 +1,9 @@
-:root{
-    --displayBG: black; 
-    --displayColor: greenyellow; 
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 body {
     font-size: 30px;
-    background-color: rgb(32, 39, 49);
+    font-family: 'Lobster', cursive;;
 }
 
 .display{
@@ -16,6 +13,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
+    font-family: 'Kdam Thmor Pro', sans-serif;
     #operations {   
         height: 1rem;
         padding-right: 1rem;

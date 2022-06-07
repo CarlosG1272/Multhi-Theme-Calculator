@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const MySection = styled.section`
+background-color: rgb(32, 39, 49);
 height: max-content;
 margin: auto;
 width: 100vh;
@@ -16,7 +17,7 @@ outline: 1px solid ${props => props.theme.displayBorder}; //displayBorder
 `
 export const MyButtonsContainer = styled.div`
   background-color: ${props => props.theme.buttonsContainerBG};
-  background-image: ${props=> props.theme.buttonIMG} // butttonsBG
+  background-image: ${props=> props.theme.buttonIMG}; // butttonsBG
 `
 
 export const MyButtonNumber = styled.button`

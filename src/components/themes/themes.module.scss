@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .theme_options{
     margin: 40px;
@@ -9,8 +9,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: blue;
+    background-color: white;
     padding: 10px;
+    font-family: 'Lobster', cursive;
     .themeShow{
         cursor: pointer;
     }
@@ -21,7 +22,7 @@
     background-color: aqua;
     color: black;
     &:hover{
-        color: yellow;
+        color: white;
     }
 }
 
@@ -38,6 +39,6 @@
 
 .active{
     color: yellow;
-    border: 2px solid red;
+    border: 4px solid orange;
 }
 

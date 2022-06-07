@@ -6,6 +6,7 @@ import Contact from './components/contact';
 import Themes from './components/themes';
 import {ThemeProvider} from 'styled-components';
 import selectTheme from './components/style/themeSelecter';
+import {Container} from "./AppElements"
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
 
   return (
     <ThemeProvider theme={selectTheme(colorTheme)}>
-      <div className={styles.App}>
+      <Container className={styles.App}>
         <section>
           <Calculator />
         </section>
@@ -39,7 +40,7 @@ function App() {
           <Themes setColorTheme={setColorTheme} colorTheme={colorTheme} />
         </section>
 
-      </div>
+      </Container>
     </ThemeProvider>
   );
 }

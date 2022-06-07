@@ -1,7 +1,7 @@
 const neonTheme = {
-    bodyBG: "",
-    contactBarBG: "",
-    contactColor: "",
+    bodyBG: "black",
+    contactBarBG: "purple",
+    contactColor: "#00FFAB",
 
 	heavyBorderSection: "#333" ,
 	sectionBorder: "#00FFAB",
@@ -30,6 +30,7 @@ const neonTheme = {
 	operationBG: "blue",
 
 	inputBG: "black",
+	inputColor: "yellow",
 	inputBorder: "orange",
 
     tagColor: "white"
@@ -40,8 +41,12 @@ const neonTheme = {
 
 
 const pastelTheme = {
+	bodyBG: "#bde0fe",
+    contactBarBG: "#789395",
+    contactColor: "black",
+
 	heavyBorderSection: "#AAAAAA" ,
-	sectionBorder: "#00FFAB",
+	sectionBorder: "black",
 	sectionColor: "#FF87CA",
 	
 	displayColor: "black",
@@ -76,6 +81,10 @@ const pastelTheme = {
 
 
 const galaxTheme = {
+	bodyURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg/2560px-Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg",
+    contactBarBG: "#44008b",
+    contactColor: "white",
+
 	heavyBorderSection: "#800080" ,
 	sectionBorder: "#000",
 	sectionColor: "#6A5ACD",
@@ -113,6 +122,10 @@ const galaxTheme = {
 
 
 const formalTheme = {
+	bodyURL: "https://static.vecteezy.com/system/resources/previews/001/987/871/original/abstract-black-stripes-diagonal-background-free-vector.jpg",
+    contactBarBG: "#c6c6c6",
+    contactColor: "white",
+
 	heavyBorderSection: "#000" ,
 	sectionBorder: "gray",
 	sectionColor: "white",
