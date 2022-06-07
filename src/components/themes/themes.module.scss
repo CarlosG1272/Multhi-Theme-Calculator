@@ -1,0 +1,43 @@
+
+
+.theme_options{
+    margin: 40px;
+    height: max-content;
+    width: 15vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    padding: 10px;
+    .themeShow{
+        cursor: pointer;
+    }
+
+}
+
+#theme_neon{
+    background-color: aqua;
+    color: black;
+    &:hover{
+        color: yellow;
+    }
+}
+
+#theme_pastel{
+    background-color: pink;
+}
+#theme_galax{
+    background-color: purple;
+}
+
+#theme_formal{
+    background-color: black;
+}
+
+.active{
+    color: yellow;
+    border: 2px solid red;
+}
+
